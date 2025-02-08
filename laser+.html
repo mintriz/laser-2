@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser+ - Grabado Láser de Termos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .colors {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .color-box {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .catalog-item {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .catalog-item img {
+            width: 100px;
+            height: auto;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>Laser+ - Grabado Láser de Termos</header>
+    <div class="container">
+        <h2>Personaliza tu termo con grabado láser</h2>
+        <p>En <strong>Laser+</strong> ofrecemos grabado láser de alta calidad en una variedad de colores de termos. 
+        Elige tu color favorito y dale un toque único a tu termo.</p>
+        
+        <h3>Colores Disponibles</h3>
+        <div class="colors">
+            <div class="color-box" style="background-color: red;"></div>
+            <div class="color-box" style="background-color: blue;"></div>
+            <div class="color-box" style="background-color: green;"></div>
+            <div class="color-box" style="background-color: black;"></div>
+            <div class="color-box" style="background-color: white; border: 1px solid #ccc;"></div>
+        </div>
+        
+        <h3>Catálogo de Termos</h3>
+        <div class="catalog">
+            <div class="catalog-item">
+                <img src="termo-rojo.jpg" alt="Termo Rojo">
+                <p>Termo Rojo</p>
+            </div>
+            <div class="catalog-item">
+                <img src="termo-azul.jpg" alt="Termo Azul">
+                <p>Termo Azul</p>
+            </div>
+            <div class="catalog-item">
+                <img src="termo-verde.jpg" alt="Termo Verde">
+                <p>Termo Verde</p>
+            </div>
+            <div class="catalog-item">
+                <img src="termo-negro.jpg" alt="Termo Negro">
+                <p>Termo Negro</p>
+            </div>
+            <div class="catalog-item">
+                <img src="termo-blanco.jpg" alt="Termo Blanco">
+                <p>Termo Blanco</p>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; 2025 Laser+ - Todos los derechos reservados</footer>
+</body>
+</html>
